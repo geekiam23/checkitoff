@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require metisMenu
+//= require raphael
+//= require morris
+//= datatables
+//= require jquery.dataTables
+//= require dataTables.responsive
+//= require dataTables.bootstrap
 //= require_tree .
