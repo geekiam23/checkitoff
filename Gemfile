@@ -18,8 +18,11 @@ source 'https://rubygems.org'
  gem 'coffee-rails', '~> 4.1.0'
  gem 'jquery-rails'
  gem 'turbolinks'
- gem 'bootstrap'
+ gem 'bootstrap-sass'
  gem 'figaro'
+ gem 'devise'
+ gem "font-awesome-rails"
+
 
  group :development, :test do
    gem 'byebug'
