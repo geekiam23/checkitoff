@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :items
+  namespace :api, defaults: { format: :json } do
+    resources :users
+  end
 
   devise_for :users
   get "dashboard/index" => "dashboard/index"
